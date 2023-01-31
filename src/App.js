@@ -1,14 +1,15 @@
 import "./assets/css/App.css";
 import Header from "./Header/Header";
-import Main from "./Main/Main";
-import data from "https://res.cloudinary.com/lereacteur-apollo/raw/upload/v1643648266/react-new-exercices/netflix2022/movies_rnexgr.json";
+import Section from "./Section/Section";
+import datas from "./assets/datas/datas.json";
 
 const App = () => {
   return (
-    <>
+    <div>
       <Header />
-      <Main data={data[0]} />
-    </>
+      <Section datasTab={datas} />
+      {console.log("datas :", datas)} ;
+    </div>
   );
 };
 
