@@ -1,7 +1,11 @@
-// import netflixlogo from "./src/assets/img/Netflix.svg";
+import netflixlogo from "../assets/img/Netflix_Logo.png";
 
 const Header = () => {
-  return <h1>LOGO NETFLIX ICI</h1>;
+  return (
+    <h1>
+      <img alt="logo de netflix" src={netflixlogo} />
+    </h1>
+  );
 };
 
 /* <img src={netflixlogo} alt="Logo netflix rouge" /> */

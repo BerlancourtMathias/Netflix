@@ -5,7 +5,7 @@ import datas from "./assets/datas/datas.json";
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <Header />
       <Section datasTab={datas} />
       {console.log("datas :", datas)} ;
